@@ -180,6 +180,10 @@ body {
     border-radius: 20px;
 }
 
+.main__div--ryzen5:hover{
+    border: solid rgb(42, 5, 77) 8px;
+}
+
 .precio {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -190,6 +194,7 @@ body {
     border-radius: 20px;
     color: rgb(224, 162, 28);
 }
+
 
 #nombres {
     font-family: Arial, Helvetica, sans-serif;
@@ -389,6 +394,8 @@ footer {
         margin-right: 70%;
         margin-top: 50px;
     }
+
+    
 
     .aside {
         width: 70%;

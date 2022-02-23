@@ -1,0 +1,633 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(6, 6, 14);
+    padding: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#header__logo {
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.header__barra {
+    position: absolute;
+    margin-left: 35%;
+    width: 200px;
+    top: 22px;
+    padding: 0px;
+}
+
+#barra {
+    text-align: center;
+    height: 30px;
+    border-radius: 50px;
+    width: 250%;
+}
+
+.header__lupa {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    background: beige;
+    width: 20px;
+    border-radius: 50px;
+    margin-left: 60%;
+    margin-top: 8px;
+    top: 10px;
+}
+
+.header__div--lupa {
+    width: 15px;
+}
+
+.header__div {
+    position: absolute;
+    background-color: rgb(238, 238, 238);
+    margin-left: 85%;
+    top: 20px;
+}
+
+.nav {
+    background-color: rgb(32, 32, 39);
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.links {
+    color: whitesmoke;
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+button {
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: blueviolet;
+    text-decoration: none;
+}
+
+
+
+
+
+body {
+    background-color: rgb(73, 70, 67);
+}
+
+
+.main {
+    display: grid;
+    grid-template-columns: 15% 30% auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 3px;
+
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.nav__list {
+    display: grid;
+    font-size: 20px;
+    background-color: rgb(37, 59, 59);
+    width: auto;
+    grid-row: 1/4;
+    list-style: none;
+    width: 200px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.redes img {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.nav__list h3 {
+    color: rgb(224, 162, 28);
+}
+
+.nav__list li {
+    margin: 5px;
+    color: whitesmoke;
+}
+
+.nav__list--title {
+    margin: 3px;
+}
+
+.nosotros {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(173, 173, 98);
+    border-radius: 60%;
+    margin: 15%;
+    padding: 15px;
+}
+
+.contacto {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    border-radius: 60%;
+    margin: 15%;
+    padding: 15px;
+}
+
+
+.main__filtraciones {
+    grid-row: 1/15;
+}
+
+.aside {
+    background-color: rgb(65, 52, 52);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.aside h1 {
+    color: rgb(192, 152, 66);
+}
+
+
+.main__div--ryzen5 {
+    width: 260px;
+    height: 250px;
+    margin-left: 20%;
+    border: 5px solid rgb(17, 15, 49);
+    border-radius: 20px;
+}
+
+.precio {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: auto;
+    border-radius: 20px;
+    color: rgb(224, 162, 28);
+}
+
+#nombres {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#descripcion {
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: rgb(240, 208, 208);
+}
+
+#tecla {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 800px;
+    border: solid black 10px;
+    border-radius: 15px;
+}
+
+.proce {
+    padding: 3px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 700px;
+    height: 700px;
+    border: solid black 10px;
+    border-radius: 15px;
+}
+
+
+.main__div {
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.main__article {
+    padding: 5px;
+    margin-top: 50px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: rgb(36, 8, 54);
+}
+
+.article__h1 {
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(148, 167, 43);
+}
+
+.article__h2 {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(224, 162, 28);
+
+}
+
+#lista2 {
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+.main__contacto {
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+}
+
+.main__contacto--div {
+    background-color: rgb(127, 177, 241);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main__contacto--datos {
+    background-color: rgb(216, 64, 97);
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 300px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+article {
+    background-color: burlywood;
+}
+
+.formulario {
+    background-color: azure;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 100px;
+    border: solid black 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario__div {
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.formulario__label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.terminos {
+    margin-top: 10px;
+}
+
+.main__productos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3px;
+    margin: 60px;
+}
+
+footer {
+    background-color: rgb(32, 32, 39);
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    bottom: 0px;
+}
+
+.h3 {
+    color: rgb(62, 62, 65);
+}
+
+.iconocon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.gamepoint{
+    width: 40%;
+    margin-left: 30%;
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    .header__barra {
+        width: 10px;
+    }
+
+    #barra {
+        width: 190px;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    #descripcion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__lupa {
+        margin-left: 70%;
+    }
+
+    .header__div {
+        margin-right: 70%;
+        display: flex;
+        justify-content: end;
+        flex-direction: row;
+    }
+
+    .main__div--ryzen5 {
+        padding: 2px;
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        margin-right: 70%;
+        margin-top: 50px;
+    }
+
+    .aside {
+        width: 70%;
+        height: 95%;
+        position: relative;
+        margin-bottom: 10px;
+        margin-left: 70%;
+    }
+
+
+    .nav__list {
+        width: 150px;
+        margin-left: 0;
+        font-size: 90%;
+    }
+
+    .footer {
+        font-size: 65%;
+        margin-top: 50px;
+        bottom: 0px;
+        
+    }
+
+    /* ryzen */
+
+
+    .main__div {
+        position: absolute;
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .proce {
+        height: 400px;
+        width: 350px;
+        margin-right: 350px;
+        margin bottom: 150px;
+        margin-right: 50px;
+    }
+
+    .main__article {
+        display: flex;
+        flex-direction: row;
+        margin-top: 175%;
+        width: 120%;
+        margin-left: 30px;
+    }
+
+    .article__h1 {
+        margin-top: 25px;
+        font-size: 25px;
+    }
+
+    .article__h2 {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+
+    #lista2 {
+        font-size: 15px;
+    }
+
+
+    /* contacto */
+
+    .main__contacto{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(9, 1fr);
+    }
+
+    .main__contacto--div{
+        width:70% ;
+    }
+
+    .main__contacto--datos{
+        width: 80%;
+    }
+
+    .formulario{
+        width: 220px;
+        margin-left: 20%;
+    }
+    .formulario__div{
+        width: 180px;
+    }
+
+    .gamepoint{
+        display: flex;
+        justify-content: center;
+        height: 30%;
+        width: 30%;
+    }
+    
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    @media screen and (min-width: 550px) {
+
+
+        .header__barra {
+            width: 20px;
+        }
+
+        #barra {
+            width: 250px;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        #descripcion {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header__lupa {
+            margin-left: 73%;
+        }
+
+        .header__div {
+            margin-right: 50%;
+            display: flex;
+            justify-content: end;
+            flex-direction: row;
+        }
+
+        .main__div--ryzen5 {
+            padding: 1px;
+            width: 160px;
+            height: 165px;
+            position: absolute;
+            margin-right: 70%;
+            margin-top: 10px;
+        }
+
+        .aside {
+            width: 210px;
+            height: 95%;
+            position: relative;
+            margin-bottom: 10px;
+            margin-left: 52%;
+        }
+
+        /* ryzen */
+
+
+        .nav__list {
+            width: 160px;
+            margin-left: 0;
+            font-size: 100%;
+        }
+
+        .footer {
+            font-size: 95%;
+        }
+
+        .main__div {
+            position: absolute;
+            display: flex;
+            align-items: flex-end;
+        }
+    
+        .proce {
+            height: 500px;
+            width: 450px;
+            margin-right: 350px;
+            margin bottom: 150px;
+            margin-right: 50px;
+        }
+    
+        .main__article {
+            display: flex;
+            flex-direction: row;
+            margin-top: 195%;
+            width: 150%;
+            margin-left: 30px;
+        }
+    
+        .article__h1 {
+            margin-top: 25px;
+            font-size: 35px;
+        }
+    
+        .article__h2 {
+            margin-top: 10px;
+            font-size: 20px;
+        }
+    
+        #lista2 {
+            font-size: 15px;
+        }
+
+
+
+        .main__contacto{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(9, 1fr);
+        }
+    
+        .main__contacto--div{
+            width:75% ;
+        }
+    
+        .main__contacto--datos{
+            width: 82%;
+        }
+    
+        .formulario{
+            width: 270px;
+            margin-left: 20%;
+        }
+        .formulario__div{
+            width: 200px;
+        }
+    
+        .gamepoint{
+            display: flex;
+            justify-content: center;
+            height: 30%;
+            width: 30%;
+        }
+        
+    
+    
+    
+
+
+
+
+    }
+
+}

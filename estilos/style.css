@@ -69,12 +69,18 @@ header {
     margin-bottom: 5px;
     border: 1px solid black;
     border-radius: 10px;
-    background-color: blueviolet;
+    background-color: #8a2be2;
     text-decoration: none;
 }
 
-button {
-    color: rgb(255, 255, 255);
+.links:hover{
+    transition-property: all;
+    transform: scale(110%);
+    transition-duration: 80ms;
+    background-color: #7727c2;
+}
+
+button{
     padding: 3px;
     margin-left: 15px;
     margin-top: 5px;
@@ -82,7 +88,16 @@ button {
     border: 1px solid black;
     border-radius: 10px;
     background-color: blueviolet;
+}
+
+button:hover{
+    transition-property: all;
+    transition-duration: 80ms;
+    background-color: #7727c2;
+}
+.button__productos {
     text-decoration: none;
+    color: whitesmoke;
 }
 
 
@@ -163,8 +178,9 @@ body {
 
 .aside {
     background-color: rgb(65, 52, 52);
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 10px;
+    margin-bottom: 20px;
 }
 
 .aside h1 {
@@ -178,10 +194,16 @@ body {
     margin-left: 20%;
     border: 5px solid rgb(17, 15, 49);
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 .main__div--ryzen5:hover{
+    transition-property: all;
     border: solid rgb(42, 5, 77) 8px;
+    transform: scale(110%);
+    transition-duration: 250ms;
+    transition-delay: 70ms;
+
 }
 
 .precio {
@@ -358,6 +380,46 @@ footer {
 
 
 
+  .animacion{
+      margin-left: 80px;
+  }
+
+  .animacion:hover{
+      animation: animacion 10s;
+  }
+
+  @keyframes animacion{
+      0%{
+        background-color:blue;
+      }
+
+      15%{
+          transform: scale(2);
+          border-radius: 70px;
+      }
+
+      25%{
+        transform: translateY(-600px) translateX(-300px);
+      }
+
+      30%{
+        transform: scale(5);
+    }
+
+      50%{
+          transform: translateX(-500px);
+      }
+
+
+      60%{
+          background-color: aquamarine;
+      }
+
+      80%{
+          transform: rotate(30000deg)
+      }
+  }
+
 
 @media screen and (max-width: 550px) {
     .header__barra {
@@ -419,7 +481,6 @@ footer {
         
     }
 
-    /* ryzen */
 
 
     .main__div {
@@ -459,7 +520,6 @@ footer {
     }
 
 
-    /* contacto */
 
     .main__contacto{
         display: grid;
@@ -548,7 +608,6 @@ footer {
             margin-left: 52%;
         }
 
-        /* ryzen */
 
 
         .nav__list {
